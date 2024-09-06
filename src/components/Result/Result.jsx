@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { useLocation } from "react-router-dom";
-import { BirthContext } from "../../../context/BirthContext";
+import { BirthContext } from "../../context/BirthContext";
 
 function Result() {
   const { birthData } = useContext(BirthContext);

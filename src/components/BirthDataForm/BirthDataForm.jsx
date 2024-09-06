@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import { BirthContext } from "../../../context/BirthContext";
+import { BirthContext } from "../../context/BirthContext";
 import { useNavigate } from "react-router-dom";
 import "./BirthDataForm.css";
 import {
@@ -8,7 +8,7 @@ import {
   generateMinutes,
   generateMonths,
   generateYears,
-} from "../../../utils/FormLogic";
+} from "../../utils/FormLogic";
 
 function BirthDataForm() {
   const { fetchData } = useContext(BirthContext);

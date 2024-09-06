@@ -2,7 +2,7 @@
 
 ##### Goal
 
-The goal is to create an astrology website where the user can have a look at their natal chart and gain deeper understanding of it.
+The goal is to create an astrology website where the user can have a look at their natal chart and gain deeper understanding of it... but mostly to practice coding!
 
 ##### To do
 
@@ -11,4 +11,4 @@ The goal is to create an astrology website where the user can have a look at the
 
 ##### API used
 
-[Astrologer on Rapid](www.google.com)
+- [Astrologer on Rapid](www.google.com)
