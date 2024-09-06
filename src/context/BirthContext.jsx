@@ -41,6 +41,7 @@ export const BirthProvider = ({ children }) => {
       console.log(result);
 
       if (result && result.data && result.data.subject) {
+        setBirthData(result.data);
       } else {
         setError("Failed to fetch astrology data.");
       }

@@ -16,9 +16,10 @@ function Result() {
   return (
     <div className="result-container">
       <h1>Your Astrology Chart</h1>
-      <p>Sun Sign: </p>
-      <p>Ascendant: </p>
-      <p>Houses:</p>
+      <p>Sun: {birthData.subject.sun.sign}</p>
+      <p>Moon: </p>
+      <p>Mercury:</p>
+      <p>Saturn:</p>
     </div>
   );
 }
