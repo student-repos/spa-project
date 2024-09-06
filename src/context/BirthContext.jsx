@@ -4,6 +4,8 @@ export const BirthContext = createContext();
 
 export const BirthProvider = ({ children }) => {
   const [birthData, setBirthData] = useState({});
+  const [ aspectData, setAspectData ] = useState([])
+
   const [error, setError] = useState(null);
 
   const fetchData = async (e, formData) => {
@@ -42,6 +44,8 @@ export const BirthProvider = ({ children }) => {
 
       if (result && result.data && result.data.subject) {
         setBirthData(result.data);
+        setAspectData(result.aspects)
+
       } else {
         setError("Failed to fetch astrology data.");
       }
@@ -56,6 +60,7 @@ export const BirthProvider = ({ children }) => {
       value={{
         birthData,
         setBirthData,
+        aspectData,
         fetchData,
       }}
     >

@@ -33,7 +33,7 @@ function BirthDataForm() {
 
   const handleSubmit = (e) => {
     fetchData(e, formData);
-    navigate("/result");
+    navigate("/create-chart");
   };
 
   return (

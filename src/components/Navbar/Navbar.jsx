@@ -14,6 +14,9 @@ function Navbar() {
             <Link to={"/"}>Home</Link>
           </li>
           <li>
+            <Link to={"/form"}>Form</Link>
+          </li>
+          <li>
             <Link to={"/create-chart"}>Create chart</Link>
           </li>
           <li>

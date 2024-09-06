@@ -11,7 +11,9 @@ function App() {
     <BirthProvider>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/form" element={<BirthDataForm />} />
         <Route path="/create-chart" element={<Result />} />
+
         <Route path="contact" element={<Contact />} />
       </Routes>
     </BirthProvider>
